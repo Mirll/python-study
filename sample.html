@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>selenium元素定位教学案例</title>
+    <style type="text/css" >
+        p{
+            color: green;
+        }
+        #loginform{
+            background:whitesmoke;
+        }
+        .required{
+            color: red;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Selenium IDE Web自动化测试入门</h1>
+	<p>这是两个链接，你要打开看一下吗？</p>
+	<a href="http://www.baidu.com" target="_blank">百度一下</a>
+	<a href="http://www.bing.com" target="_blank">必应一下</a>
+	<p>下面是表单：</p><hr>
+	<form id="loginform">
+		账户：<input class="required" name="username" type="text"><br/><br/>
+		密码：<input class="required passfieId" name="password" type="password"><br/><br/>
+		<input name="continue" type="submit" value="登录">
+		<input name="continue" type="button" value="清空">
+	</form>
+</body>
+</html>
